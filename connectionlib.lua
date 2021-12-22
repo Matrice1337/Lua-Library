@@ -4,7 +4,7 @@ end
 
 getgenv().conlib = {}
 
-getgenv().raw = loadstring(game:HttpGet("https://pastebin.com/raw/aVDqbsU2"))() -- raw library
+getgenv().raw = loadstring(game:HttpGet("https://raw.githubusercontent.com/Matrice1337/Lua-Library/main/rawlib.lua"))() -- raw library
 
 local InstSignals = {}
 local SignalInsts = {}
