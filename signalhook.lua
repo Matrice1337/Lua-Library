@@ -2,8 +2,8 @@ if getgenv().hooksignal then
 	return getgenv().hooksignal
 end
 
-getgenv().conlib = loadstring(game:HttpGet("https://pastebin.com/raw/AyYfjrTB"))() -- my awesome connection library
-getgenv().raw = loadstring(game:HttpGet("https://pastebin.com/raw/aVDqbsU2"))() -- my awesome raw library
+getgenv().conlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Matrice1337/Lua-Library/main/connectionlib.lua"))() -- my awesome connection library
+getgenv().raw = loadstring(game:HttpGet("https://raw.githubusercontent.com/Matrice1337/Lua-Library/main/rawlib.lua"))() -- my awesome raw library
 
 local signalinfo
 getgenv().getsignalinfo = function()
